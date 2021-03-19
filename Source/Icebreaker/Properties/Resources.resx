@@ -138,11 +138,17 @@
     <comment>A generic message that is sent when there is an error occurring</comment>
   </data>
   <data name="InstallMessageKnownInstallerPart1" xml:space="preserve">
-    <value>If you're reading this, it's most likely because {0} added me to the **{1} Team.**</value>
+    <value>Welcome!</value>
     <comment>Install message and also the welcome message when the app installer is known - {0} is the placeholder for the name of the user that has installed the app to the team, and {1} is the placeholder for the name of the team that the app has been installed to</comment>
   </data>
   <data name="InstallMessageKnownInstallerPart2" xml:space="preserve">
-    <value>I get to help you meet more people around your organization by randomly pairing you with someone new every week. You get to make more friends and learn about the people you work with. It's a win-win-*win* situation.</value>
+    <value>We're excited you decided to join. A few reminders:	
+  Matches will be automatically made right here in Teams on Wednesday at 12:00pm EST. 
+	The tool will suggest convenient times for you and your match to meet but you'll be able to bypass those suggestions
+	Use this time however feels most valuable to you. Maybe it's just a quick hello with an old friend, maybe you'll get to meet someone new in a different role or office
+	You're welcome to opt out at anytime, just make sure you let your match know
+
+If your match decides to opt out, post here in the 'Bump Into - NA' chat window to let the group know you're looking for a new match.</value>
     <comment>Part 2 of the install message when the name of the installer is known</comment>
   </data>
   <data name="InstallMessageKnownInstallerPart3" xml:space="preserve">
@@ -162,11 +168,11 @@
     <comment>Part 3 of the install message when the name of the installer is not known</comment>
   </data>
   <data name="MatchUpCardContentPart1" xml:space="preserve">
-    <value>Hi there again, I'm {0} in {1}. A bot that pairs you with a new coworker to meet each week. This week your match is {2}.</value>
+    <value>Hi there, I'm Bump Into, a bot that pairs you with another Forresterite. You've been matched with {2}.</value>
     <comment>First part of the match up card main content</comment>
   </data>
   <data name="MatchUpCardContentPart2" xml:space="preserve">
-    <value>If you've got the inclination, set something up. See, meeting people *is* easy!</value>
+    <value>Set up a meetin up or chat right here in Teams. Enjoy!</value>
     <comment>Second part of the match up card main content</comment>
   </data>
   <data name="MatchUpCardMatchedText" xml:space="preserve">
@@ -178,7 +184,7 @@
     <comment>The title text for the pairup notification adaptive card</comment>
   </data>
   <data name="MeetupContent" xml:space="preserve">
-    <value>Hey there, looks like we've been matched by {0} this week. It'd be great to meet up for a coffee or a lunch or a call if you've got time.</value>
+    <value>Hey there, looks like we've been matched by {0}. Shall we set up a meeting or just chat now?</value>
     <comment>Content of the Meetup for the propose meeting</comment>
   </data>
   <data name="MeetupTitle" xml:space="preserve">
@@ -222,7 +228,7 @@
     <comment>This is the tour content page title text</comment>
   </data>
   <data name="TourMatchesBodyText" xml:space="preserve">
-    <value>Pause matches whenever you need. Too busy that week? Out of the office? No problem. Just click the button at anytime.</value>
+    <value>Pause matches whenever you need. Too busy? Out of the office? No problem. Just click the button at anytime.</value>
     <comment>This is the tour match task module body text</comment>
   </data>
   <data name="TourMatchesHeaderText" xml:space="preserve">
